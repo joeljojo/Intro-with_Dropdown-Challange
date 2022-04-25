@@ -5,6 +5,7 @@ import DataBiz from "../Images/client-databiz.svg";
 import AudioPhile from "../Images/client-audiophile.svg";
 import Meet from "../Images/client-meet.svg";
 import Maker from "../Images/client-maker.svg";
+import "../responsiveness.css";
 
 const Content = () => {
   return (
@@ -17,7 +18,9 @@ const Content = () => {
           Get your team in sync, no matter your location. <br /> Streamline
           processes, create team rituals, and watch productivity soar.
         </p>
-        <div id="button">Learn more</div>
+        <div className="btn-learn" id="button">
+          Learn more
+        </div>
         <div className="partners">
           <img src={DataBiz} />
           <img src={AudioPhile} />

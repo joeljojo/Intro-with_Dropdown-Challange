@@ -2,7 +2,12 @@ import React from "react";
 import Logo from "../Images/logo.svg";
 import ArrowDown from "../Images/icon-arrow-down.svg";
 import ArrowUp from "../Images/icon-arrow-up.svg";
+import Calendar from "../Images/icon-calendar.svg";
+import TodoList from "../Images/icon-todo.svg";
+import Reminders from "../Images/icon-reminders.svg";
+import Planning from "../Images/icon-planning.svg";
 import "../Components/Header.css";
+import "../responsiveness.css";
 const Header = () => {
   return (
     <div className="header">
@@ -15,10 +20,22 @@ const Header = () => {
             Features
             <img src={ArrowDown} />
             <ul>
-              <li>Todo List</li>
-              <li>Calendar</li>
-              <li>Reminders</li>
-              <li>Planning</li>
+              <li>
+                <img src={TodoList} />
+                Todo List
+              </li>
+              <li>
+                <img src={Calendar} />
+                Calendar
+              </li>
+              <li>
+                <img src={Reminders} />
+                Reminders
+              </li>
+              <li>
+                <img src={Planning} />
+                Planning
+              </li>
             </ul>
           </li>
           <li>
@@ -28,6 +45,7 @@ const Header = () => {
               <li>History</li>
               <li>Our Team</li>
               <li>Blog</li>
+              <li></li>
             </ul>
           </li>
           <li>Careers</li>

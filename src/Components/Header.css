@@ -25,6 +25,7 @@ ul li ul {
   transition: all 0.5s ease;
   margin-top: 110px;
   display: none;
+  background: #ffffff;
 }
 ul li:hover > ul,
 ul li ul:hover {
@@ -36,6 +37,7 @@ ul li ul:hover {
 ul li ul li {
   clear: both;
   width: 100%;
+  text-align: left;
 }
 .nav-bar li:hover,
 .btn:hover {
